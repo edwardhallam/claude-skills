@@ -86,22 +86,92 @@ Claude will:
 
 ---
 
-## Why Use These Skills?
+## How Team-Builder Works
+
+Team-builder creates a specialized team of AI agents by generating agent definition files in your project's `.claude/agents/` directory. Once created, you can engage these agents individually or delegate work to them in parallel.
+
+### 🤝 **Delegate to Specialized Agents**
+
+Instead of doing everything yourself, delegate specific tasks to expert agents:
+
+```bash
+# Engage multiple agents for different tasks
+backend-developer, create the REST API for user authentication
+frontend-developer, build the login UI components
+test-engineer, write integration tests for the auth flow
+```
+
+Each agent brings domain expertise and focused guidance for their specialty.
+
+### ⚡ **Work in Parallel**
+
+**This is the game-changer:** Team-builder enables you to run multiple agents simultaneously, dramatically speeding up development:
+
+```bash
+# Traditional: Do everything sequentially yourself
+1. Design API
+2. Implement backend
+3. Build frontend
+4. Write tests
+5. Deploy
+Result: 5 days of sequential work
+
+# With team-builder: Delegate to agents in parallel
+backend-developer, implement the API (Day 1-2)
+frontend-developer, build the UI (Day 1-2)  ← Running in parallel!
+test-engineer, write tests (Day 2)         ← Running in parallel!
+devops-engineer, set up CI/CD (Day 2)      ← Running in parallel!
+Result: 2 days with parallel execution
+```
+
+Multiple agents can work on different parts of your project **at the same time**, then integrate their work.
 
 ### 🎯 **Focused Expertise**
-Each agent specializes in specific domains (backend, DevOps, infrastructure, testing) providing expert-level guidance.
 
-### 🚀 **Faster Development**
-Pre-configured workflows and team structures help you start building immediately without planning overhead.
+Each agent specializes in specific domains:
+- **backend-developer**: API design, database logic, server-side code
+- **frontend-developer**: UI/UX, client-side code, React/Vue components
+- **devops-engineer**: Deployment, CI/CD, Docker, infrastructure
+- **test-engineer**: Test automation, quality assurance, validation
+- **documentation-writer**: PRDs, API docs, technical specifications
+
+You get expert-level guidance for each domain instead of general-purpose assistance.
 
 ### ✅ **Quality Built-In**
-Mandatory test-engineer ensures quality assurance is part of every project from day one.
+
+Every team includes **test-engineer** (mandatory) ensuring:
+- Testing happens at every stage, not just at the end
+- Automated test suites catch issues before production
+- Quality assurance is part of the workflow, not an afterthought
 
 ### 🔄 **Iterative by Design**
-Emphasizes vertical slicing and rapid deployment: Build MVP → Test → Deploy → Iterate.
 
-### 📚 **Well-Documented**
-Comprehensive guides for installation, usage, and real-world examples.
+Teams are configured for modern iterative development:
+- Build **vertical slices** (complete features, not horizontal layers)
+- Deploy to production **fast** (days, not weeks)
+- Test **continuously** (every iteration)
+- Iterate based on **real usage** (not assumptions)
+
+### 📦 **Project Structure, Not Artifacts**
+
+Team-builder creates **only** the team structure (~5-10 agent files). The agents themselves create project artifacts when you engage them:
+
+```
+What team-builder creates:
+├── .claude/agents/
+│   ├── backend-developer.md      ← Agent definitions
+│   ├── frontend-developer.md
+│   └── test-engineer.md
+└── TEAM-SETUP.md                  ← Workflow guide
+
+What the agents create (when you engage them):
+├── src/                           ← Code
+├── tests/                         ← Tests
+├── docs/                          ← Documentation
+└── docker-compose.yml             ← Infrastructure
+```
+
+This prevents over-scaffolding and keeps your project lean.
 
 ---
 
