@@ -305,7 +305,7 @@ After team-builder creates your team, you can:
 - Deploy: Update Grafana configuration
 - Learn: What alerts do we need?
 
-[**→ See Full Example**](../../examples/team-builder-examples.md#example-1-homelab-infrastructure)
+[**→ See Full Example**](./examples.md#example-1-homelab-infrastructure)
 
 ### Example 2: Web Application
 
@@ -332,7 +332,7 @@ After team-builder creates your team, you can:
 - Deploy: Production
 - Learn: What's the next priority?
 
-[**→ See Full Example**](../../examples/team-builder-examples.md#example-2-full-stack-web-application)
+[**→ See Full Example**](./examples.md#example-2-full-stack-web-application)
 
 ---
 
@@ -484,10 +484,8 @@ A: Download the new version and extract it to `~/.claude/skills/team-builder/`, 
 
 ## Related Documentation
 
-- **[Examples](../../examples/team-builder-examples.md)** - Real-world usage scenarios
-- **[Iterative Workflow Guide](../../docs/iterative-workflow-guide.md)** - Philosophy and principles
-- **[Development Updates](../../docs/iterative-development-update.md)** - Recent changes
-- **[Version 3 Changes](../../docs/team-builder-v3-changes.md)** - Detailed changelog
+- **[Examples](./examples.md)** - Real-world usage scenarios
+- **[Changelog](./CHANGELOG.md)** - Version history and changes
 
 ---
 
@@ -505,4 +503,4 @@ MIT License - See [LICENSE](../../LICENSE) for details
 
 ---
 
-**Ready to build your team?** [Download Now](./releases/team-builder-v3.0.0.zip) | [See Examples](../../examples/team-builder-examples.md)
+**Ready to build your team?** [Download Now](./releases/team-builder-v3.0.0.zip) | [See Examples](./examples.md)

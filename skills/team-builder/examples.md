@@ -38,7 +38,7 @@ Use team-builder to create a team for monitoring my Proxmox homelab with Prometh
 ### Team Created
 
 ```
-/Users/edwardhallam/proxmox-monitoring/
+/path/to/proxmox-monitoring/
 └── .claude/
     ├── agents/
     │   ├── infrastructure-architect.md    (~80 lines)
@@ -189,7 +189,7 @@ Use team-builder to create a team for a task management SaaS application with Re
 ### Team Created
 
 ```
-/Users/edwardhallam/taskmanager-saas/
+/path/to/taskmanager-saas/
 └── .claude/
     ├── agents/
     │   ├── fullstack-developer.md         (~95 lines)
@@ -393,7 +393,7 @@ Use team-builder for a RESTful API backend service for e-commerce with product c
 ### Team Created
 
 ```
-/Users/edwardhallam/ecommerce-api/
+/path/to/ecommerce-api/
 └── .claude/
     ├── agents/
     │   ├── backend-developer.md           (~90 lines)
@@ -484,7 +484,7 @@ Use team-builder for a minimal team to build a static site generator for portfol
 ### Team Created
 
 ```
-/Users/edwardhallam/portfolio-generator/
+/path/to/portfolio-generator/
 └── .claude/
     ├── agents/
     │   ├── fullstack-developer.md         (~85 lines)
@@ -524,7 +524,7 @@ Use team-builder for a healthcare patient portal with strict security requiremen
 **Team includes security-engineer** (due to "strict security requirements" and "HIPAA"):
 
 ```
-/Users/edwardhallam/patient-portal/
+/path/to/patient-portal/
 └── .claude/
     ├── agents/
     │   ├── backend-developer.md
@@ -578,7 +578,7 @@ Use team-builder for a business intelligence dashboard with complex data process
 **Team includes database-architect** (due to "complex data processing"):
 
 ```
-/Users/edwardhallam/bi-dashboard/
+/path/to/bi-dashboard/
 └── .claude/
     ├── agents/
     │   ├── backend-developer.md
@@ -739,11 +739,11 @@ The TEAM-SETUP.md provides 3-phase workflow. Follow it:
 
 ## Next Steps
 
-1. **[Install team-builder](../skills/team-builder/README.md#installation)**
+1. **[Install team-builder](./README.md#installation)**
 2. **Try an example** similar to your project
 3. **Customize your team** after creation
 4. **Start iterating** - Build → Test → Deploy → Learn
 
 ---
 
-**Questions?** [Open an issue](https://github.com/edwardhallam/claude-skills/issues) or check the [documentation](../skills/team-builder/README.md).
+**Questions?** [Open an issue](https://github.com/edwardhallam/claude-skills/issues) or check the [documentation](./README.md).

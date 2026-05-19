@@ -217,7 +217,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Repository:** [github.com/edwardhallam/claude-skills](https://github.com/edwardhallam/claude-skills)
 - **Documentation:** [README.md](./README.md)
-- **Examples:** [../../examples/team-builder-examples.md](../../examples/team-builder-examples.md)
+- **Examples:** [examples.md](./examples.md)
 - **Issues:** [GitHub Issues](https://github.com/edwardhallam/claude-skills/issues)
 
 ---

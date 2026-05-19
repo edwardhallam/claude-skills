@@ -109,7 +109,7 @@ When recommending agents, emphasize:
 
 ### Step 3: Create Team Configuration
 
-Create ONLY the project directory structure at `/Users/edwardhallam/[project-name]/.claude/` with:
+Create ONLY the project directory structure at `/path/to/[project-name]/.claude/` with:
 
 1. **agents/** directory with markdown files for each agent
 2. **commands/** directory (empty, for future custom commands)
@@ -194,7 +194,7 @@ npx claude-code-templates@latest \
 
 ### Step 5: Create TEAM-SETUP.md
 
-Create a minimal setup guide at `/Users/edwardhallam/[project-name]/.claude/TEAM-SETUP.md`:
+Create a minimal setup guide at `/path/to/[project-name]/.claude/TEAM-SETUP.md`:
 
 ```markdown
 # [Project Name] - AI Team Setup
@@ -224,7 +224,7 @@ npx claude-code-templates@latest \
 
 ## Quick Start
 
-1. Navigate to project directory: `cd /Users/edwardhallam/[project-name]`
+1. Navigate to project directory: `cd /path/to/[project-name]`
 2. Start Claude Code: `claude`
 3. Verify agents: `/agents`
 4. Begin work: Ask the documentation-writer agent to create a PRD first
@@ -274,7 +274,7 @@ Provide a brief summary emphasizing the MANDATORY core team and iterative approa
 **Required Summary Elements:**
 1. **Team size** - "Created [X] agents"
 2. **Core team confirmation** - "✅ Includes REQUIRED test-engineer and documentation-writer"
-3. **Files location** - `/Users/edwardhallam/[project-name]/.claude/`
+3. **Files location** - `/path/to/[project-name]/.claude/`
 4. **Total files** - Should be 5-10 files total (agents/ + commands/ + settings.json + TEAM-SETUP.md)
 5. **Iterative workflow reminder** - "Team configured for vertical-slice iterative development: Build MVP → Test → Deploy FAST → Iterate"
 6. **Next steps** - Run installation commands, start Claude Code, ask documentation-writer to create LEAN PRD for MVP
@@ -533,7 +533,7 @@ Test early, test often, automate everything. Focus on fast feedback loops. Build
 
 ### ✅ CORRECT - Minimal Team Setup with REQUIRED Core Team
 ```
-/Users/edwardhallam/channels-dvr-setup/
+/path/to/channels-dvr-setup/
 └── .claude/
     ├── agents/
     │   ├── infrastructure-architect.md    (50-100 lines)
@@ -554,7 +554,7 @@ Total: 5-6 files, ~350-450 lines
 
 ### ❌ INCORRECT - Missing test-engineer (TASK FAILURE)
 ```
-/Users/edwardhallam/myproject/
+/path/to/myproject/
 └── .claude/
     ├── agents/
     │   ├── backend-developer.md
@@ -570,7 +570,7 @@ Total: 5-6 files, ~350-450 lines
 
 ### ❌ INCORRECT - Over-scaffolding
 ```
-/Users/edwardhallam/channels-dvr-setup/
+/path/to/channels-dvr-setup/
 ├── .claude/
 │   ├── agents/
 │   ├── settings.json
